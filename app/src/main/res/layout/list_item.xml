@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        app:civ_border_color="#ffffff"
+        app:civ_border_width="2dp"
+        tools:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/txt_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/username"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="sodiqOladeni" />
+
+
+</LinearLayout>
